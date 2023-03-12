@@ -10,30 +10,63 @@
     </head>
 
     <body class="main_pagina">
+    <!-- El body está dividido en: Cabecera, sección principal (científicos + enlaces) y pie de página. -->
         <header class="cabecera">
+            <!-- La primera parte de la cabecera es el logotipo (izquierda). -->
             <section class="imagen_cabecera">
-                <img src="header_img.jpg" height=100% width=100% alt="imagencabecera">
+                <img class="imagen_cabecera_" src="logotipo.jpg">
             </section>
 
-            <section class="titulo_menu">
-                <div class="titulo">
-                    <h1 class="titulo_pagina">
-                        100TIFICOS y 100TIFICAS
-                    </h1>
-                </div>
+            <!-- La segunda parte de la cabecera es el título y el menú horizontal. -->
+            <section class="texto_cabecera">
+                <h1 class="titulo_pagina">
+                             100TIFICOS y 100TIFICAS
+                </h1>
+
+                <section class="menus">
+                    <a class="menu_text" href=""> Inicio </a>
+                    <a class="menu_text" href=""> Referencias </a>
+                    <a class="menu_text" href=""> Ayuda </a>
+                </section>
             </section>
         </header>
 
         <section class="main_section">
             <section class="seccion_cientificos">
-                asdsdasdasd
+                <!-- Esta es la sección de los científicos, que tendrá dos columnas (en dos divs) de 3 fotos cada una. -->
+                <div class="cientificos">
+                    <!-- Primera columna de científicos. -->
+                    <div class="cientificos_">
+                        <img class="foto_cientifico" src="tesla.jpeg">
+                        <a class="pie_cientifico" href=""> Nikola Tesla </a>
+
+                        <img class="foto_cientifico" src="Einstein.jpg">
+                        <a class="pie_cientifico" href=""> Albert Einstein </a>
+
+                        <img class="foto_cientifico" src="boltzmann.jpg">
+                        <a class="pie_cientifico" href=""> Ludwig Boltzmann </a>
+                    </div>
+
+                    <!-- Segunda columna de científicos. -->
+                    <div class="cientificos_">
+                        <img class="foto_cientifico" src="franklin.jpeg">
+                        <a class="pie_cientifico" href=""> Rosalind Franklin </a>
+
+                        <img class="foto_cientifico" src="maxwell.jpg">
+                        <a class="pie_cientifico" href=""> James Clerk Maxwell </a>
+
+                        <img class="foto_cientifico" src="Marie_Curie.jpg">
+                        <a class="pie_cientifico" href=""> Marie Curie </a>
+                    </div>
+                </div>
             </section>
 
-            <section class="seccion_enlaces">
+            <nav class="seccion_enlaces">
                 asdsadasdasdsdasd
-            </section>
+            </nav>
         </section>
 
+    <!-- A partir de aquí está lo relacionado con el pie de página. -->
         <footer class="pie_pagina">
             <img class="imagenpie" src="copyright.png">
             <div class="texto_pie">
