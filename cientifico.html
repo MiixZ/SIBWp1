@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Científicos</title>
-        <link rel="stylesheet" href="./portada.css"/> <!-- Con esto decimos el archivo css
-             que va a darle formato. Si quisiéramos un archivo js sería <script src=... defer> </> en vez de link -->
+        <title>Nikola Tesla</title>
+        <link rel="stylesheet" href="./cientifico.css"/> <!-- Con esto decimos el archivo css
+                 que va a darle formato. Si quisiéramos un archivo js sería <script src=... defer> </> en vez de link -->
     </head>
 
     <body class="main_pagina">
-    <!-- El body está dividido en: Cabecera, sección principal (científicos + enlaces) y pie de página. -->
+        <!-- El body está dividido en: Cabecera, sección principal (científico + enlaces) y pie de página. -->
         <header class="cabecera">
             <!-- La primera parte de la cabecera es el logotipo (izquierda). -->
             <section class="imagen_cabecera">
@@ -20,7 +20,7 @@
             <!-- La segunda parte de la cabecera es el título y el menú horizontal. -->
             <section class="texto_cabecera">
                 <h1 class="titulo_pagina">
-                             100TIFICOS y 100TIFICAS
+                    100TIFICOS y 100TIFICAS
                 </h1>
 
                 <section class="menus">
@@ -33,32 +33,36 @@
 
         <section class="main_section">
             <section class="seccion_cientificos">
-                <!-- Esta es la sección de los científicos, que tendrá dos columnas (en dos divs) de 3 fotos cada una. -->
-                <div class="cientificos">
-                    <!-- Primera columna de científicos. -->
-                    <div class="cientificos_">
-                        <img class="foto_cientifico" src="tesla.jpeg">
-                        <a class="pie_cientifico" href="./cientifico.html"> Nikola Tesla </a>
+                <section class="texto_cientifico">
+                    <h1>    NIKOLA TESLA    </h1>
+                    <h2>    10/07/1856 - 07/01/1943       </h2>
+                    <h3>    NEW YORK, EE.UU.    </h3>
 
-                        <img class="foto_cientifico" src="Einstein.jpg">
-                        <a class="pie_cientifico" href="./cientifico.html"> Albert Einstein </a>
+                    <p class="biografia">
+                        Tesla, que nació y se crio en el Imperio austríaco, estudió ingeniería y física en la década de 1870 sin obtener un título,
+                        aunque adquirió experiencia práctica a principios de la década de 1880 trabajando en telefonía para la empresa Continental Edison,
+                        que por entonces lideraba la nueva industria de la energía eléctrica.
+                        En 1884 emigró a Estados Unidos, donde adquirió la doble nacionalidad.
+                        Trabajó durante un corto tiempo en Edison Machine Works en Nueva York antes de emprender el camino por su cuenta.
+                        Con la ayuda de socios para financiar y comercializar sus ideas,
+                        Tesla fundó laboratorios y empresas en Nueva York para desarrollar dispositivos eléctricos y mecánicos.
+                        Su motor asíncrono de corriente alterna (CA) y las patentes relacionadas con el sistema polifásico,
+                        licenciadas por Westinghouse Electric en 1888, le reportaron grandes sumas de dinero y además
+                        se convirtieron en la piedra angular del sistema polifásico finalmente comercializado por esta empresa.
+                    </p>
 
-                        <img class="foto_cientifico" src="boltzmann.jpg">
-                        <a class="pie_cientifico" href="./cientifico.html"> Ludwig Boltzmann </a>
-                    </div>
+                    <section class="buttons">
+                        <button> <a class="text_button" href="./cientifico_imprimir.html"> FB </a> </button>
+                        <button> <a class="text_button" href="./cientifico_imprimir.html"> TW </a> </button>
+                        <button> <a class="text_button" href="./cientifico_imprimir.html"> IMPRIMIR </a> </button>
+                    </section>
 
-                    <!-- Segunda columna de científicos. -->
-                    <div class="cientificos_">
-                        <img class="foto_cientifico" src="franklin.jpeg">
-                        <a class="pie_cientifico" href="./cientifico.html"> Rosalind Franklin </a>
+                </section>
 
-                        <img class="foto_cientifico" src="maxwell.jpg">
-                        <a class="pie_cientifico" href="./cientifico.html"> James Clerk Maxwell </a>
-
-                        <img class="foto_cientifico" src="Marie_Curie.jpg">
-                        <a class="pie_cientifico" href="./cientifico.html"> Marie Curie </a>
-                    </div>
-                </div>
+                <section class="imagenes_cientifico">
+                    <img class="foto_cientifico" src="tesla.jpeg">
+                    <img class="foto_cientifico" src="tesla2.jpeg">
+                </section>
             </section>
 
             <nav class="seccion_enlaces">
